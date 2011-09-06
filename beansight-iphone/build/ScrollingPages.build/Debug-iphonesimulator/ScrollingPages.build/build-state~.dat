@@ -1,0 +1,432 @@
+TScrollingPages
+v7
+r0
+t332864089.141178
+cCheck dependencies
+cProcessInfoPlistFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/Info.plist ScrollingPages-Info.plist
+cCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+cCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+cCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+cProcessPCH /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch.gch ScrollingPages_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/main.o /Users/jb/Documents/iphoneDev/ScrollingPages/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesAppDelegate.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoader.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoaderList.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightListModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages normal i386
+cGenerateDSYMFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app.dSYM /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages
+cTouch /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.h
+c000000004E26D72800000000000001B8
+t1311168296
+s440
+i<Foundation/Foundation.h>
+i"InsightModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m
+c000000004E26D73F00000000000003F3
+t1311168319
+s1011
+i"InsightListModel.h"
+i"InsightModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.h
+c000000004E25E6EF0000000000000121
+t1311106799
+s289
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m
+c000000004E25EC30000000000000011B
+t1311108144
+s283
+i"InsightModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.h
+c000000004E26D82300000000000001B6
+t1311168547
+s438
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m
+c000000004E26D92000000000000004AE
+t1311168800
+s1198
+i"PageViewController.h"
+i"InsightListModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+c000000004E25D91A0000000000001871
+t1311103258
+s6257
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.h
+c000000004E26E0CB00000000000001FD
+t1311170763
+s509
+i<Foundation/Foundation.h>
+i"PageViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m
+c000000004E26E0C600000000000002AB
+t1311170758
+s683
+i"PageViewControllerLoader.h"
+i"PageViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.h
+c000000004E26DDAB00000000000002CC
+t1311169963
+s716
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m
+c000000004E26E0E500000000000005F4
+t1311170789
+s1524
+i"PageViewControllerLoaderList.h"
+i"InsightListModel.h"
+i"PageViewControllerLoader.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.h
+c000000004E25BED40000000000000200
+t1311096532
+s512
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m
+c000000004E25BED40000000000000AC4
+t1311096532
+s2756
+i"ScrollingPagesAppDelegate.h"
+i"ScrollingPagesViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.h
+c000000004E25DF960000000000000156
+t1311104918
+s342
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m
+c000000004E25FE2A0000000000000863
+t1311112746
+s2147
+i"ScrollingPagesViewController.h"
+i"PageViewControllerLoaderList.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+c000000004E25BED40000000000004E7D
+t1311096532
+s20093
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+c000000004E26DFB50000000000004480
+t1311170485
+s17536
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPages_Prefix.pch
+c000000004E25BED400000000000000C5
+t1311096532
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app
+t1311171289
+s272
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app.dSYM
+t1311171289
+s102
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/Info.plist
+t1311171288
+s619
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/MainWindow.nib
+t1311171288
+s1695
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/PageViewController.nib
+t1311171288
+s1231
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/PkgInfo
+t1311171288
+s8
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages
+t1311171289
+s35232
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPagesViewController.nib
+t1311171288
+s1664
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightListModel.o
+t1311171289
+s12564
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightModel.o
+t1311171289
+s7876
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewController.o
+t1311171289
+s41904
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoader.o
+t1311171288
+s40964
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoaderList.o
+t1311171289
+s49456
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPages.LinkFileList
+c000000004E26E2D800000000000004EB
+t1311171288
+s1259
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesAppDelegate.o
+t1311171288
+s51788
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesViewController.o
+t1311171288
+s43012
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/main.o
+t1311171288
+s6324
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/main.m
+c000000004E25BED40000000000000167
+t1311096532
+s359
+i<UIKit/UIKit.h>
+
+N/var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch.gch
+t1311103338
+s15814064
+
+NScrollingPages-Info.plist
+c000000004E25BED4000000000000038D
+t1311096532
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332864088#332864088#0(0"0(0#1#0"8653195392#0"0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightListModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.974279
+e332864089.055604
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightListModel.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m332864088#332864089#0(0"0(0#0#71"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m8647734368#2214"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightListModel.o0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.972645
+e332864089.059128
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightModel.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m332864088#332864089#0(0"0(0#0#67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m8648374240#2206"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/InsightModel.o0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.943636
+e332864089.063206
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewController.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m332864088#332864089#0(0"0(0#0#73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m8650563872#2218"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewController.o0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoader.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.866783
+e332864088.972524
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoader.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m332864088#332864088#0(0"0(0#0#79"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m8653239520#2230"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoader.o0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoaderList.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.970725
+e332864089.082885
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoaderList.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m332864088#332864089#0(0"0(0#0#83"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m8649244128#2238"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/PageViewControllerLoaderList.o0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesAppDelegate.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.864928
+e332864088.970561
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesAppDelegate.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m332864088#332864088#0(0"0(0#0#80"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m8654549952#2232"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesAppDelegate.o0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.865748
+e332864088.974165
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesViewController.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m332864088#332864088#0(0"0(0#0#83"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m8654189280#2238"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPagesViewController.o0#
+
+CCompileC build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/main.o /Users/jb/Documents/iphoneDev/ScrollingPages/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332864088.863790
+e332864088.943459
+r1
+xCompileC
+xbuild/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/main.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/main.m332864088#332864088#0(0"0(0#0#51"/Users/jb/Documents/iphoneDev/ScrollingPages/main.m8661427328#2182"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/main.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+s332864088.299378
+e332864088.851273
+r1
+xCompileXIB
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+lSLF07#2@41"CompileXIB Classes/PageViewController.xib332864088#332864088#0(0"0(0#0#75"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib8647588000#681"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/PageViewController.nib /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+s332864088.297595
+e332864088.863512
+r1
+xCompileXIB
+x/Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332864088#332864088#0(0"0(0#0#59"/Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib8648454304#657"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/MainWindow.nib /Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+s332864088.298600
+e332864088.860135
+r1
+xCompileXIB
+x/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+lSLF07#2@43"CompileXIB ScrollingPagesViewController.xib332864088#332864088#0(0"0(0#0#77"/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib8648033472#693"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPagesViewController.nib /Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app.dSYM /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages
+s332864089.114756
+e332864089.138349
+r1
+xGenerateDSYMFile
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app.dSYM
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/ScrollingPages.app.dSYM build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages332864089#332864089#0(0"0(0#0#106"/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages8649055456#484"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app.dSYM0#
+
+CLd /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages normal i386
+s332864089.083011
+e332864089.114674
+r1
+xLd
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages
+xnormal
+xi386
+lSLF07#2@111"Link /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages332864089#332864089#0(0"0(0#0#0"8650114112#1027"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -filelist /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/Objects-normal/i386/ScrollingPages.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/ScrollingPages0#
+
+CProcessInfoPlistFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/Info.plist ScrollingPages-Info.plist
+s332864088.293576
+e332864088.297487
+r1
+xProcessInfoPlistFile
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/Info.plist
+xScrollingPages-Info.plist
+lSLF07#2@33"Process ScrollingPages-Info.plist332864088#332864088#0(0"0(0#0#70"/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPages-Info.plist8649990752#580"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility ScrollingPages-Info.plist -genpkginfo /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app/Info.plist0#
+
+CProcessPCH /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch.gch ScrollingPages_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332796137.456309
+e332796138.115449
+r1
+xProcessPCH
+x/var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch.gch
+xScrollingPages_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile ScrollingPages_Prefix.pch332796137#332796138#0(0"0(0#0#70"/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPages_Prefix.pch8649220384#2061"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/ScrollingPages-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/ScrollingPages.build/Debug-iphonesimulator/ScrollingPages.build/DerivedSources -c /Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPages_Prefix.pch -o /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScrollingPages_Prefix-ghqwepyzdvyszlckahtfjqjerpix/ScrollingPages_Prefix.pch.gch0#
+
+CTouch /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app
+s332864089.138468
+e332864089.141147
+r1
+xTouch
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app
+lSLF07#2@97"Touch /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app332864089#332864089#0(0"0(0#0#0"8665145376#359"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/ScrollingPages.app0#
+

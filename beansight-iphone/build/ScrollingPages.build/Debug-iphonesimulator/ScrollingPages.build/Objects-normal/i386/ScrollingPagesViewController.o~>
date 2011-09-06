@@ -1,0 +1,5 @@
+/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m: In function '-[ScrollingPagesViewController viewDidAppear:]':
+/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: 'ScrollingPagesViewController' may not respond to '-initFirstDisplay'
+/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: (Messages without a matching method signature
+/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: will be assumed to return 'id' and accept
+/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: '...' as arguments.)

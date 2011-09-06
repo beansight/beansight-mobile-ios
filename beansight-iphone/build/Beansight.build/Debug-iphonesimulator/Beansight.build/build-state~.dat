@@ -1,0 +1,1610 @@
+TBeansight
+v7
+r0
+t336047978.761026
+cCheck dependencies
+cProcessInfoPlistFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Info.plist Beansight-Info.plist
+cCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+cCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+cCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+cCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.xib
+cCpResource build/Debug-iphonesimulator/Beansight.app/Default@2x.png ../../../Desktop/poubelle/Default@2x.png
+cCpResource build/Debug-iphonesimulator/Beansight.app/Default@2x.png Default@2x.png
+cCpResource build/Debug-iphonesimulator/Beansight.app/button.png button.png
+cCpResource build/Debug-iphonesimulator/Beansight.app/button-agree-highlight.png button-agree-highlight.png
+cCpResource build/Debug-iphonesimulator/Beansight.app/button-disagree-highlight.png button-disagree-highlight.png
+cCpResource build/Debug-iphonesimulator/Beansight.app/agree-inactive.png agree-inactive.png
+cCpResource build/Debug-iphonesimulator/Beansight.app/disagree-inactive.png disagree-inactive.png
+cProcessPCH /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch.gch Beansight_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/main.o /Users/jb/Documents/iphoneDev/ScrollingPages/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesAppDelegate.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoader.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoaderList.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightListModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataCompressor.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataDecompressor.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDownloadCache.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIFormDataRequest.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIHTTPRequest.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIInputStream.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASINetworkQueue.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/Reachability.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/NSObject+SBJson.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonParser.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParser.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonTokeniser.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonWriter.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/UILabel+VerticalAlign.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AuthenticationWebViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SwitchViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AgreeVote.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/DisagreeVote.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight normal i386
+cGenerateDSYMFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app.dSYM /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight
+cTouch /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54CF7C00000000001C41F0
+t1297403772
+s1851888
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004D54CF5900000000000004CF
+t1297403737
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D54CEB40000000000000AB3
+t1297403572
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004D54D0BA00000000000000EB
+t1297404090
+s235
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D0BC000000000005C090
+t1297404092
+s376976
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54CEF80000000000001A58
+t1297403640
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54CF0700000000000689C0
+t1297403655
+s428480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5040000000000001533
+t1297401092
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ifaddrs.h
+c000000004D54C50400000000000008F5
+t1297401092
+s2293
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netdb.h
+c000000004D54C504000000000000307F
+t1297401092
+s12415
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet/in.h
+c000000004D54D0E60000000000006BAC
+t1297404134
+s27564
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet6/in6.h
+c000000004D54D0E6000000000000638F
+t1297404134
+s25487
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/socket.h
+c000000004D54D0EB0000000000005ACF
+t1297404139
+s23247
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/zlib.h
+c000000004D54CB4600000000000102A5
+t1297402694
+s66213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libz.1.2.3.dylib
+c000000004D54CB4700000000000123C0
+t1297402695
+s74688
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/../../../Desktop/poubelle/Default@2x.png
+c000000004E3165A1000000000000EB45
+t1311860129
+s60229
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Beansight_Prefix.pch
+c000000004E25BED400000000000000C5
+t1311096532
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.h
+c000000004E12DFD60000000000000453
+t1309859798
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.m
+c000000004E12DFD60000000000003DF0
+t1309859798
+s15856
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASICacheDelegate.h
+c000000004E12DFD6000000000000141F
+t1309859798
+s5151
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.h
+c000000004E12DFD6000000000000072C
+t1309859798
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.m
+c000000004E12DFD60000000000001A4A
+t1309859798
+s6730
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.h
+c000000004E12DFD600000000000006A3
+t1309859798
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.m
+c000000004E12DFD60000000000001906
+t1309859798
+s6406
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.h
+c000000004E12DFD600000000000006CD
+t1309859798
+s1741
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.m
+c000000004E12DFD60000000000004314
+t1309859798
+s17172
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.h
+c000000004E12DFD60000000000000A85
+t1309859798
+s2693
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.m
+c000000004E12DFD60000000000002BDD
+t1309859798
+s11229
+i"ASIFormDataRequest.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.h
+c000000004E12DFD6000000000000AEB6
+t1309859798
+s44726
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.m
+c000000004E12DFD6000000000002C678
+t1309859798
+s181880
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequestConfig.h
+c000000004E12DFD60000000000000478
+t1309859798
+s1144
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequestDelegate.h
+c000000004E12DFD6000000000000063E
+t1309859798
+s1598
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.h
+c000000004E12DFD600000000000003C9
+t1309859798
+s969
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.m
+c000000004E12DFD60000000000000C14
+t1309859798
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.h
+c000000004E12DFD6000000000000120D
+t1309859798
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.m
+c000000004E12DFD60000000000002C8D
+t1309859798
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIProgressDelegate.h
+c000000004E12DFD60000000000000678
+t1309859798
+s1656
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.h
+c000000004E33161D00000000000000FD
+t1311970845
+s253
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.m
+c000000004E566D580000000000000355
+t1314286936
+s853
+i"AgreeVote.h"
+i"ASIHTTPRequest.h"
+i"SBJson.h"
+i"InsightListModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.h
+c000000004E31783C00000000000001CF
+t1311864892
+s463
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m
+c000000004E566D6B000000000000090F
+t1314286955
+s2319
+i"AuthenticationWebViewController.h"
+i"InsightListModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.xib
+c000000004E31784E0000000000005955
+t1311864910
+s22869
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.h
+c000000004E3317260000000000000103
+t1311971110
+s259
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.m
+c000000004E566D68000000000000034E
+t1314286952
+s846
+i"DisagreeVote.h"
+i"ASIHTTPRequest.h"
+i"InsightListModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.h
+c000000004E566B7B0000000000000217
+t1314286459
+s535
+i<Foundation/Foundation.h>
+i"InsightModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m
+c000000004E566BDC0000000000000DC9
+t1314286556
+s3529
+i<Foundation/Foundation.h>
+i"InsightListModel.h"
+i"InsightModel.h"
+i"ASIHTTPRequest.h"
+i"SBJson.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.h
+c000000004E34350000000000000003E6
+t1312044288
+s998
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m
+c000000004E3434F800000000000005B9
+t1312044280
+s1465
+i"InsightModel.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.h
+c000000004E33148200000000000002F8
+t1311970434
+s760
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m
+c000000004E3BC6E90000000000000FA8
+t1312540393
+s4008
+i"PageViewController.h"
+i"InsightListModel.h"
+i"AuthenticationWebViewController.h"
+i"AgreeVote.h"
+i"DisagreeVote.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+c000000004E330FE50000000000007C1E
+t1311969253
+s31774
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.h
+c000000004E26E0CB00000000000001FD
+t1311170763
+s509
+i<Foundation/Foundation.h>
+i"PageViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m
+c000000004E3064BF00000000000002D7
+t1311794367
+s727
+i"PageViewControllerLoader.h"
+i"PageViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.h
+c000000004E55089A00000000000002A5
+t1314195610
+s677
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m
+c000000004E31B4190000000000000953
+t1311880217
+s2387
+i"PageViewControllerLoaderList.h"
+i"InsightListModel.h"
+i"PageViewControllerLoader.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.h
+c000000004E12DFD60000000000001D0E
+t1309859798
+s7438
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.m
+c000000004E12DFD60000000000005E0C
+t1309859798
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.h
+c000000004E25BED40000000000000200
+t1311096532
+s512
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m
+c000000004E25BED40000000000000AC4
+t1311096532
+s2756
+i"ScrollingPagesAppDelegate.h"
+i"ScrollingPagesViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.h
+c000000004E3311EA00000000000001B4
+t1311969770
+s436
+i<UIKit/UIKit.h>
+i"UserAuthenticateDelegate.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m
+c000000004E31BA5E0000000000000ECF
+t1311881822
+s3791
+i"ScrollingPagesViewController.h"
+i"PageViewControllerLoaderList.h"
+i"InsightListModel.h"
+i"AuthenticationWebViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.h
+c000000004E316C71000000000000028A
+t1311861873
+s650
+i<UIKit/UIKit.h>
+i"ScrollingPagesViewController.h"
+i"AuthenticationWebViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.m
+c000000004E316C940000000000000651
+t1311861908
+s1617
+i"SwitchViewController.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.h
+c000000004E2EEA70000000000000017D
+t1311697520
+s381
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.m
+c000000004E2EEA870000000000000595
+t1311697543
+s1429
+i"UILabel+VerticalAlign.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UserAuthenticateDelegate.h
+c000000004E3312040000000000000111
+t1311969796
+s273
+i<UIKit/UIKit.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.h
+c000000004E1DAF2B00000000000008B7
+t1310568235
+s2231
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.m
+c000000004E1DAF2B00000000000008A6
+t1310568235
+s2214
+i"NSObject+SBJson.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJson.h
+c000000004E1DAF2B0000000000000DA2
+t1310568235
+s3490
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamWriter.h"
+i"NSObject+SBJson.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.h
+c000000004E1DAF2B0000000000000DCA
+t1310568235
+s3530
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.m
+c000000004E1DAF2B0000000000000CC0
+t1310568235
+s3264
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.h
+c000000004E1DAF2B0000000000001550
+t1310568235
+s5456
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.m
+c000000004E1DAF2B0000000000001AC1
+t1310568235
+s6849
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+i<limits.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.h
+c000000004E1DAF2B00000000000006AE
+t1310568235
+s1710
+i<Foundation/Foundation.h>
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.m
+c000000004E1DAF2B000000000000079B
+t1310568235
+s1947
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.h
+c000000004E1DAF2B000000000000141D
+t1310568235
+s5149
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.m
+c000000004E1DAF2B00000000000011DD
+t1310568235
+s4573
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.h
+c000000004E1DAF2B0000000000000B22
+t1310568235
+s2850
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.m
+c000000004E1DAF2B0000000000001FB6
+t1310568235
+s8118
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.h
+c000000004E1DAF2B000000000000161D
+t1310568235
+s5661
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.m
+c000000004E1DAF2B0000000000002956
+t1310568235
+s10582
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.h
+c000000004E1DAF2B0000000000000693
+t1310568235
+s1683
+i"SBJsonStreamWriter.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.m
+c000000004E1DAF2B00000000000007EB
+t1310568235
+s2027
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.h
+c000000004E1DAF2B00000000000009EC
+t1310568235
+s2540
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.m
+c000000004E1DAF2B0000000000000F61
+t1310568235
+s3937
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.h
+c000000004E1DAF2B0000000000000888
+t1310568235
+s2184
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.m
+c000000004E1DAF2B00000000000031FE
+t1310568235
+s12798
+i"SBJsonTokeniser.h"
+i"SBJsonUTF8Stream.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.h
+c000000004E1DAF2B0000000000000814
+t1310568235
+s2068
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.m
+c000000004E1DAF2B0000000000000F25
+t1310568235
+s3877
+i"SBJsonUTF8Stream.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.h
+c000000004E1DAF2B0000000000001059
+t1310568235
+s4185
+i<Foundation/Foundation.h>
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.m
+c000000004E1DAF2B0000000000000DBF
+t1310568235
+s3519
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/Default@2x.png
+c000000004E3165A1000000000000EB45
+t1311860129
+s60229
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+c000000004E25BED40000000000004E7D
+t1311096532
+s20093
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+c000000004E272F6B00000000000044F6
+t1311190891
+s17654
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/agree-inactive.png
+c000000004D4ADD0A000000000000016A
+t1296751882
+s362
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIAuthenticationDialog.o
+t1314355177
+s108620
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataCompressor.o
+t1314355177
+s23344
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataDecompressor.o
+t1314355177
+s23308
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDownloadCache.o
+t1314355177
+s60080
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIFormDataRequest.o
+t1314355177
+s47956
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIHTTPRequest.o
+t1314355178
+s513032
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIInputStream.o
+t1314355177
+s29100
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASINetworkQueue.o
+t1314355177
+s61500
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AgreeVote.o
+t1314355178
+s16536
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AuthenticationWebViewController.o
+t1314355178
+s47100
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/Beansight.LinkFileList
+c000000004E5777E70000000000001377
+t1314355175
+s4983
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/DisagreeVote.o
+t1314355178
+s16576
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightListModel.o
+t1314355177
+s26576
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightModel.o
+t1314355177
+s16876
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/NSObject+SBJson.o
+t1314355177
+s8568
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewController.o
+t1314355176
+s56620
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoader.o
+t1314355176
+s41244
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoaderList.o
+t1314355176
+s51388
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/Reachability.o
+t1314355177
+s33804
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonParser.o
+t1314355177
+s16460
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParser.o
+t1314355177
+s28860
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+t1314355177
+s10452
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t1314355177
+s24652
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserState.o
+t1314355177
+s45136
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriter.o
+t1314355177
+s45796
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+t1314355177
+s10728
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t1314355178
+s28136
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonTokeniser.o
+t1314355178
+s29824
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonUTF8Stream.o
+t1314355178
+s17508
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonWriter.o
+t1314355178
+s18572
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesAppDelegate.o
+t1314355176
+s51788
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesViewController.o
+t1314355176
+s48096
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SwitchViewController.o
+t1314355178
+s41956
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/UILabel+VerticalAlign.o
+t1314355178
+s39956
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/main.o
+t1314355176
+s6324
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app
+t1314355178
+s510
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app.dSYM
+t1314355178
+s102
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/AuthenticationWebViewController.nib
+t1314355175
+s2199
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight
+t1314355178
+s538800
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Default@2x.png
+t1314355175
+s60229
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Info.plist
+t1314355175
+s599
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/MainWindow.nib
+t1314355175
+s1695
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/PageViewController.nib
+t1314355175
+s4847
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/PkgInfo
+t1314355175
+s8
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/ScrollingPagesViewController.nib
+t1314355175
+s1664
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/agree-inactive.png
+t1314355175
+s362
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/button-agree-highlight.png
+t1314355175
+s1318
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/button-disagree-highlight.png
+t1314355175
+s1833
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/button.png
+t1314355175
+s2816
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/disagree-inactive.png
+t1314355175
+s367
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/button-agree-highlight.png
+c000000004E32BE360000000000000526
+t1311948342
+s1318
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/button-disagree-highlight.png
+c000000004E32C1CA0000000000000729
+t1311949258
+s1833
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/button.png
+c000000004E31D0A70000000000000B00
+t1311887527
+s2816
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/disagree-inactive.png
+c000000004D4ADD0A000000000000016F
+t1296751882
+s367
+
+N/Users/jb/Documents/iphoneDev/ScrollingPages/main.m
+c000000004E25BED40000000000000167
+t1311096532
+s359
+i<UIKit/UIKit.h>
+
+N/var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch.gch
+t1314355176
+s15814064
+
+NBeansight-Info.plist
+c000000004E25BED4000000000000038D
+t1311096532
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies336047975#336047975#0(157"[WARN]Warning: Multiple build commands for output file /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Default@2x.png1(22@150"Warning: Multiple build commands for output file /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Default@2x.png336047975#18446744073709551615#0#0(1@0"0(0#1#0"8627761664#0"0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.995460
+e336047977.352714
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIAuthenticationDialog.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.m336047976#336047977#0(0"0(0#0#82"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.m8627746048#2132"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIAuthenticationDialog.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIAuthenticationDialog.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataCompressor.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.004008
+e336047977.190686
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataCompressor.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.m336047977#336047977#0(0"0(0#0#76"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.m8625956480#2120"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataCompressor.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataCompressor.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataDecompressor.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.010820
+e336047977.173983
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataDecompressor.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.m336047977#336047977#0(0"0(0#0#78"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.m8625730656#2124"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDataDecompressor.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDataDecompressor.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDownloadCache.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.172131
+e336047977.443627
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDownloadCache.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.m336047977#336047977#0(0"0(0#0#75"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.m8628496736#2118"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIDownloadCache.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIDownloadCache.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIFormDataRequest.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.174114
+e336047977.385665
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIFormDataRequest.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.m336047977#336047977#0(0"0(0#0#77"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.m8628221088#2122"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIFormDataRequest.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIFormDataRequest.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIHTTPRequest.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.190820
+e336047978.552421
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIHTTPRequest.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.m336047977#336047978#0(0"0(0#0#73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.m8627858304#2114"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIHTTPRequest.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIHTTPRequest.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIInputStream.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.352865
+e336047977.490823
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIInputStream.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.m336047977#336047977#0(0"0(0#0#73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.m8630731968#2114"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASIInputStream.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASIInputStream.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASINetworkQueue.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.385805
+e336047977.575850
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASINetworkQueue.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.m336047977#336047977#0(0"0(0#0#74"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.m8628548896#2116"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ASI/ASINetworkQueue.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ASINetworkQueue.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AgreeVote.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047978.155674
+e336047978.244161
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AgreeVote.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.m336047978#336047978#0(0"0(0#0#64"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.m8626245664#2100"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AgreeVote.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AgreeVote.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AuthenticationWebViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047978.045177
+e336047978.158218
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AuthenticationWebViewController.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m: In function '-[AuthenticationWebViewController webViewDidFinishLoad:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: no '-userDidAuthenticate:' method found
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: (Messages without a matching method signature
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: will be assumed to return 'id' and accept
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: '...' as arguments.)
+lSLF07#2@94"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m336047978#336047978#0(709"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m: In function '-[AuthenticationWebViewController webViewDidFinishLoad:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: no '-userDidAuthenticate:' method found/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: (Messages without a matching method signature/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: will be assumed to return 'id' and accept/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m:73: warning: '...' as arguments.)2(22@39"No '-userDidAuthenticate:' method found336047978#160#140#0(6@86"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m335979755#73#0#73#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)336047978#300#146#0(6@86"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m335979755#73#0#73#0#0"0(0#0#86"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m8627519680#2144"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/AuthenticationWebViewController.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/DisagreeVote.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047978.158338
+e336047978.247409
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/DisagreeVote.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.m336047978#336047978#0(0"0(0#0#67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.m8624234976#2106"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/DisagreeVote.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/DisagreeVote.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightListModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.917038
+e336047977.172000
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightListModel.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel loadMoreInsight:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:39: warning: control reaches end of non-void function
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel loadInsightsFrom:number:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: 'InsightListModel' may not respond to '-requestFinished:'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: (Messages without a matching method signature
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: will be assumed to return 'id' and accept
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: '...' as arguments.)
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel requestFinished:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:87: warning: format not a string literal and no format arguments
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel requestFailed:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:108: warning: unused variable 'error'
+lSLF07#2@79"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m336047976#336047977#0(1386"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel loadMoreInsight:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:39: warning: control reaches end of non-void function/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel loadInsightsFrom:number:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: 'InsightListModel' may not respond to '-requestFinished:'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: (Messages without a matching method signature/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: will be assumed to return 'id' and accept/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:56: warning: '...' as arguments.)/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel requestFinished:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:87: warning: format not a string literal and no format arguments/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m: In function '-[InsightListModel requestFailed:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m:108: warning: unused variable 'error'5(22@40"Control reaches end of non-void function336047977#125#126#0(6@71"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m335979356#39#0#39#0#40"control reaches end of non-void function0(22@57"'InsightListModel' may not respond to '-requestFinished:'336047977#384#143#0(6@71"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m335979356#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)336047977#527#131#0(6@71"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m335979356#56#0#56#0#0"0(22@51"Format not a string literal and no format arguments336047977#1016#137#0(6@71"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m335979356#87#0#87#0#51"format not a string literal and no format arguments0(22@23"Unused variable 'error'336047977#1276#110#0(6@71"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m335979356#108#0#108#0#19"unused variable '*'0(0#0#71"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m8628152768#2114"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightListModel.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightListModel.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightModel.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.890198
+e336047977.010667
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightModel.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m: In function '-[InsightModel getVoteStatus]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:51: warning: control reaches end of non-void function
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m: In function '-[InsightModel setVoteStatus:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:54: warning: local declaration of 'voteStatus' hides instance variable
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:56: warning: local declaration of 'voteStatus' hides instance variable
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:58: warning: local declaration of 'voteStatus' hides instance variable
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m: At top level:
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:63: warning: property 'voteStatus' requires method '-voteStatus' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@75"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m336047976#336047977#0(1061"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m: In function '-[InsightModel getVoteStatus]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:51: warning: control reaches end of non-void function/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m: In function '-[InsightModel setVoteStatus:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:54: warning: local declaration of 'voteStatus' hides instance variable/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:56: warning: local declaration of 'voteStatus' hides instance variable/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:58: warning: local declaration of 'voteStatus' hides instance variable/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m: At top level:/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m:63: warning: property 'voteStatus' requires method '-voteStatus' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@40"Control reaches end of non-void function336047976#114#122#0(6@67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m333737080#51#0#51#0#40"control reaches end of non-void function0(22@57"Local declaration of 'voteStatus' hides instance variable336047976#351#139#0(6@67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m333737080#54#0#54#0#0"0(22@57"Local declaration of 'voteStatus' hides instance variable336047976#490#139#0(6@67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m333737080#56#0#56#0#0"0(22@57"Local declaration of 'voteStatus' hides instance variable336047976#629#139#0(6@67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m333737080#58#0#58#0#0"0(23@13"At top level:336047976#768#83#0(6@67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m333737080#0#0#0#0#0"0(22@128"Property 'voteStatus' requires method '-voteStatus' to be defined - use @synthesize, @dynamic or provide a method implementation336047976#851#210#0(6@67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m333737080#63#0#63#0#0"0(0#0#67"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m8630218560#2106"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/InsightModel.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/InsightModel.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/NSObject+SBJson.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.490965
+e336047977.586994
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/NSObject+SBJson.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.m336047977#336047977#0(0"0(0#0#77"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.m8618054112#2119"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/NSObject+SBJson.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/NSObject+SBJson.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.840537
+e336047977.002655
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewController.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController agreeAction:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: 'PageViewController' may not respond to '-setInsightState:'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: (Messages without a matching method signature
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: will be assumed to return 'id' and accept
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: '...' as arguments.)
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController disagreeAction:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:50: warning: 'PageViewController' may not respond to '-setInsightState:'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController setInsightState:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:60: warning: 'PageViewController' may not respond to '-setAgreeBtnToSelected'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:61: warning: 'PageViewController' may not respond to '-setDisagreeBtnToNormal'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:65: warning: 'PageViewController' may not respond to '-setDisagreeBtnToSelected'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:66: warning: 'PageViewController' may not respond to '-setAgreeBtnToNormal'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:70: warning: 'PageViewController' may not respond to '-setAgreeBtnToNormal'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:71: warning: 'PageViewController' may not respond to '-setDisagreeBtnToNormal'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController viewDidLoad]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:105: warning: 'UILabel' may not respond to '-alignTop'
+lSLF07#2@81"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m336047976#336047977#0(2212"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController agreeAction:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: 'PageViewController' may not respond to '-setInsightState:'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: (Messages without a matching method signature/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: will be assumed to return 'id' and accept/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:40: warning: '...' as arguments.)/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController disagreeAction:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:50: warning: 'PageViewController' may not respond to '-setInsightState:'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController setInsightState:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:60: warning: 'PageViewController' may not respond to '-setAgreeBtnToSelected'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:61: warning: 'PageViewController' may not respond to '-setDisagreeBtnToNormal'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:65: warning: 'PageViewController' may not respond to '-setDisagreeBtnToSelected'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:66: warning: 'PageViewController' may not respond to '-setAgreeBtnToNormal'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:70: warning: 'PageViewController' may not respond to '-setAgreeBtnToNormal'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:71: warning: 'PageViewController' may not respond to '-setDisagreeBtnToNormal'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m: In function '-[PageViewController viewDidLoad]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m:105: warning: 'UILabel' may not respond to '-alignTop'10(22@59"'PageViewController' may not respond to '-setInsightState:'336047976#125#147#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#40#0#40#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)336047976#272#133#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#40#0#40#0#0"0(22@59"'PageViewController' may not respond to '-setInsightState:'336047976#770#147#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#50#0#50#0#26"'*' may not respond to '*'0(22@64"'PageViewController' may not respond to '-setAgreeBtnToSelected'336047976#1046#152#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#60#0#60#0#26"'*' may not respond to '*'0(22@65"'PageViewController' may not respond to '-setDisagreeBtnToNormal'336047976#1198#153#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#61#0#61#0#26"'*' may not respond to '*'0(22@67"'PageViewController' may not respond to '-setDisagreeBtnToSelected'336047976#1351#155#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#65#0#65#0#26"'*' may not respond to '*'0(22@62"'PageViewController' may not respond to '-setAgreeBtnToNormal'336047976#1506#150#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#66#0#66#0#26"'*' may not respond to '*'0(22@62"'PageViewController' may not respond to '-setAgreeBtnToNormal'336047976#1656#150#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#70#0#70#0#26"'*' may not respond to '*'0(22@65"'PageViewController' may not respond to '-setDisagreeBtnToNormal'336047976#1806#153#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#71#0#71#0#26"'*' may not respond to '*'0(22@40"'UILabel' may not respond to '-alignTop'336047976#2083#129#0(6@73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m334233193#105#0#105#0#26"'*' may not respond to '*'0(0#0#73"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m8623858528#2118"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewController.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoader.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.740582
+e336047976.916865
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoader.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m336047976#336047976#0(0"0(0#0#79"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m8625034784#2130"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoader.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoader.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoaderList.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.862482
+e336047976.995319
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoaderList.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m336047976#336047977#0(0"0(0#0#83"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m8631997856#2138"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewControllerLoaderList.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/PageViewControllerLoaderList.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/Reachability.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.443756
+e336047977.624751
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/Reachability.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.m336047977#336047977#0(0"0(0#0#80"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.m8628402144#2119"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/Reachability/Reachability.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/Reachability.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonParser.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.576256
+e336047977.680151
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonParser.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.m336047977#336047977#0(0"0(0#0#74"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.m8627496256#2113"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonParser.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParser.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.587153
+e336047977.719716
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.m336047977#336047977#0(0"0(0#0#80"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.m8627254112#2125"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParser.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParser.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.624898
+e336047977.721298
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.m336047977#336047977#0(0"0(0#0#91"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.m8632101408#2147"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAccumulator.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.680304
+e336047977.810026
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.m336047977#336047977#0(0"0(0#0#87"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.m8630386048#2139"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserAdapter.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserAdapter.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.719869
+e336047977.855451
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.m336047977#336047977#0(0"0(0#0#85"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.m8626397088#2135"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamParserState.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamParserState.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.721421
+e336047977.890975
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.m336047977#336047977#0(0"0(0#0#80"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.m8624471264#2125"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriter.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriter.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.810172
+e336047977.910766
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.m336047977#336047977#0(0"0(0#0#91"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.m8617157280#2147"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterAccumulator.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.855593
+e336047978.004659
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.m336047977#336047978#0(0"0(0#0#85"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.m8627055136#2135"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonStreamWriterState.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonStreamWriterState.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonTokeniser.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.898139
+e336047978.045030
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.m336047977#336047978#0(0"0(0#0#77"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.m8626789664#2119"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonTokeniser.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonTokeniser.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047977.910920
+e336047978.039967
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonUTF8Stream.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.m336047977#336047978#0(0"0(0#0#78"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.m8626533376#2121"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonUTF8Stream.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonUTF8Stream.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonWriter.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047978.004807
+e336047978.155510
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.m336047978#336047978#0(0"0(0#0#74"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.m8628128416#2113"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/sbjson/SBJsonWriter.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesAppDelegate.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.733197
+e336047976.862335
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesAppDelegate.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m336047976#336047976#0(0"0(0#0#80"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m8624423296#2132"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesAppDelegate.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesAppDelegate.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.736248
+e336047976.890065
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesViewController.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m: In function '-[ScrollingPagesViewController viewDidAppear:]':
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: 'ScrollingPagesViewController' may not respond to '-initFirstDisplay'
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: (Messages without a matching method signature
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: will be assumed to return 'id' and accept
+o/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: '...' as arguments.)
+lSLF07#2@91"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m336047976#336047976#0(714"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m: In function '-[ScrollingPagesViewController viewDidAppear:]':/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: 'ScrollingPagesViewController' may not respond to '-initFirstDisplay'/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: (Messages without a matching method signature/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: will be assumed to return 'id' and accept/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m:56: warning: '...' as arguments.)2(22@69"'ScrollingPagesViewController' may not respond to '-initFirstDisplay'336047976#147#167#0(6@83"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m333574622#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)336047976#314#143#0(6@83"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m333574622#56#0#56#0#0"0(0#0#83"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m8625469664#2138"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/ScrollingPagesViewController.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/ScrollingPagesViewController.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SwitchViewController.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047978.142329
+e336047978.245725
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SwitchViewController.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.m336047978#336047978#0(0"0(0#0#75"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.m8626941696#2122"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/SwitchViewController.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/SwitchViewController.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/UILabel+VerticalAlign.o /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047978.040111
+e336047978.142091
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/UILabel+VerticalAlign.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.m336047978#336047978#0(0"0(0#0#76"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.m8627806112#2124"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/UILabel+VerticalAlign.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/UILabel+VerticalAlign.o0#
+
+CCompileC build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/main.o /Users/jb/Documents/iphoneDev/ScrollingPages/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047976.732039
+e336047976.840137
+r1
+xCompileC
+xbuild/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/main.o
+x/Users/jb/Documents/iphoneDev/ScrollingPages/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jb/Documents/iphoneDev/ScrollingPages/main.m336047976#336047976#0(0"0(0#0#51"/Users/jb/Documents/iphoneDev/ScrollingPages/main.m8626374208#2082"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -include /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch -c /Users/jb/Documents/iphoneDev/ScrollingPages/main.m -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.xib
+s336047975.043966
+e336047975.907795
+r1
+xCompileXIB
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.xib
+lSLF07#2@54"CompileXIB Classes/AuthenticationWebViewController.xib336047975#336047975#0(0"0(0#0#88"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.xib8625246400#702"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/AuthenticationWebViewController.nib /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/AuthenticationWebViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+s336047975.043167
+e336047975.809666
+r1
+xCompileXIB
+x/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib
+lSLF07#2@41"CompileXIB Classes/PageViewController.xib336047975#336047975#0(0"0(0#0#75"/Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib8625585376#676"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/PageViewController.nib /Users/jb/Documents/iphoneDev/ScrollingPages/Classes/PageViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+s336047975.041719
+e336047975.809503
+r1
+xCompileXIB
+x/Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib336047975#336047975#0(0"0(0#0#59"/Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib8626047456#652"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/MainWindow.nib /Users/jb/Documents/iphoneDev/ScrollingPages/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+s336047975.042491
+e336047975.815578
+r1
+xCompileXIB
+x/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib
+lSLF07#2@43"CompileXIB ScrollingPagesViewController.xib336047975#336047975#0(0"0(0#0#77"/Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib8625820320#688"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/ScrollingPagesViewController.nib /Users/jb/Documents/iphoneDev/ScrollingPages/ScrollingPagesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Beansight.app/Default@2x.png ../../../Desktop/poubelle/Default@2x.png
+s336047975.809786
+e336047975.824234
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Beansight.app/Default@2x.png
+x../../../Desktop/poubelle/Default@2x.png
+lSLF07#2@45"Copy ../../../Desktop/poubelle/Default@2x.png336047975#336047975#0(0"0(0#0#85"/Users/jb/Documents/iphoneDev/ScrollingPages/../../../Desktop/poubelle/Default@2x.png8628326720#580"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jb/Documents/iphoneDev/ScrollingPages/../../../Desktop/poubelle/Default@2x.png /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
+CCpResource build/Debug-iphonesimulator/Beansight.app/Default@2x.png Default@2x.png
+s336047975.810715
+e336047975.826697
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Beansight.app/Default@2x.png
+xDefault@2x.png
+lSLF07#2@19"Copy Default@2x.png336047975#336047975#0(0"0(0#0#59"/Users/jb/Documents/iphoneDev/ScrollingPages/Default@2x.png8628267072#554"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jb/Documents/iphoneDev/ScrollingPages/Default@2x.png /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
+CCpResource build/Debug-iphonesimulator/Beansight.app/agree-inactive.png agree-inactive.png
+s336047975.813651
+e336047975.823968
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Beansight.app/agree-inactive.png
+xagree-inactive.png
+lSLF07#2@23"Copy agree-inactive.png336047975#336047975#0(0"0(0#0#63"/Users/jb/Documents/iphoneDev/ScrollingPages/agree-inactive.png8627830304#558"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jb/Documents/iphoneDev/ScrollingPages/agree-inactive.png /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
+CCpResource build/Debug-iphonesimulator/Beansight.app/button-agree-highlight.png button-agree-highlight.png
+s336047975.812070
+e336047975.823709
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Beansight.app/button-agree-highlight.png
+xbutton-agree-highlight.png
+lSLF07#2@31"Copy button-agree-highlight.png336047975#336047975#0(0"0(0#0#71"/Users/jb/Documents/iphoneDev/ScrollingPages/button-agree-highlight.png8628141888#566"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jb/Documents/iphoneDev/ScrollingPages/button-agree-highlight.png /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
+CCpResource build/Debug-iphonesimulator/Beansight.app/button-disagree-highlight.png button-disagree-highlight.png
+s336047975.812869
+e336047975.824606
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Beansight.app/button-disagree-highlight.png
+xbutton-disagree-highlight.png
+lSLF07#2@34"Copy button-disagree-highlight.png336047975#336047975#0(0"0(0#0#74"/Users/jb/Documents/iphoneDev/ScrollingPages/button-disagree-highlight.png8627951840#569"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jb/Documents/iphoneDev/ScrollingPages/button-disagree-highlight.png /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
+CCpResource build/Debug-iphonesimulator/Beansight.app/button.png button.png
+s336047975.811363
+e336047975.824430
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Beansight.app/button.png
+xbutton.png
+lSLF07#2@15"Copy button.png336047975#336047975#0(0"0(0#0#55"/Users/jb/Documents/iphoneDev/ScrollingPages/button.png8628204992#550"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jb/Documents/iphoneDev/ScrollingPages/button.png /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
+CCpResource build/Debug-iphonesimulator/Beansight.app/disagree-inactive.png disagree-inactive.png
+s336047975.814405
+e336047975.824809
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Beansight.app/disagree-inactive.png
+xdisagree-inactive.png
+lSLF07#2@26"Copy disagree-inactive.png336047975#336047975#0(0"0(0#0#66"/Users/jb/Documents/iphoneDev/ScrollingPages/disagree-inactive.png8627774688#561"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jb/Documents/iphoneDev/ScrollingPages/disagree-inactive.png /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
+CGenerateDSYMFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app.dSYM /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight
+s336047978.698082
+e336047978.756267
+r1
+xGenerateDSYMFile
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app.dSYM
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Beansight.app.dSYM build/Debug-iphonesimulator/Beansight.app/Beansight336047978#336047978#0(0"0(0#0#96"/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight8626968640#469"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app.dSYM0#
+
+CLd /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight normal i386
+s336047978.552508
+e336047978.697945
+r1
+xLd
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight
+xnormal
+xi386
+lSLF07#2@101"Link /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight336047978#336047978#0(0"0(0#0#0"8630757280#1094"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -filelist /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Objects-normal/i386/Beansight.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -lz.1.2.3 -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Beansight0#
+
+CProcessInfoPlistFile /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Info.plist Beansight-Info.plist
+s336047975.038145
+e336047975.041633
+r1
+xProcessInfoPlistFile
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Info.plist
+xBeansight-Info.plist
+lSLF07#2@28"Process Beansight-Info.plist336047975#336047975#0(0"0(0#0#65"/Users/jb/Documents/iphoneDev/ScrollingPages/Beansight-Info.plist8630336032#565"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Beansight-Info.plist -genpkginfo /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app/Info.plist0#
+
+CProcessPCH /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch.gch Beansight_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s336047975.907939
+e336047976.731781
+r1
+xProcessPCH
+x/var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch.gch
+xBeansight_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Beansight_Prefix.pch336047975#336047976#0(0"0(0#0#65"/Users/jb/Documents/iphoneDev/ScrollingPages/Beansight_Prefix.pch8627597792#1966"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-generated-files.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-own-target-headers.hmap -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-all-target-headers.hmap -iquote /Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/Beansight-project-headers.hmap -F/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/include -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources/i386 -I/Users/jb/Documents/iphoneDev/ScrollingPages/build/Beansight.build/Debug-iphonesimulator/Beansight.build/DerivedSources -c /Users/jb/Documents/iphoneDev/ScrollingPages/Beansight_Prefix.pch -o /var/folders/yg/ygALuDVYHX4N80Vpu-UaEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Beansight_Prefix-ghqwepyzdvyszlckahtfjqjerpix/Beansight_Prefix.pch.gch0#
+
+CTouch /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app
+s336047978.756343
+e336047978.760988
+r1
+xTouch
+x/Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app
+lSLF07#2@92"Touch /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app336047978#336047978#0(0"0(0#0#0"8626732256#354"    cd /Users/jb/Documents/iphoneDev/ScrollingPages    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/jb/Documents/iphoneDev/ScrollingPages/build/Debug-iphonesimulator/Beansight.app0#
+
