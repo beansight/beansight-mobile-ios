@@ -30,38 +30,53 @@ static InsightListModel *instance = nil;
 
 // TODO : je devrais mettre ça ailleurs
 + (NSString *) getHost {
-	return @"http://92.243.10.157";
+//	return @"http://10.0.0.7:9000";
+//	return @"http://localhost:9000";
+	return @"http://www.beansight.com";
 }
 
-- (BOOL) loadMoreInsight:(int)count
+- (BOOL) loadMoreInsight:(int)count async:(BOOL)async
 {
-	[self loadInsightsFrom: [insights count] number:count];
+	return [self loadInsightsFrom:[insights count] number:count async:async];
 }
 
-- (BOOL) loadInsightsFrom: (int)from number:(int)number
+- (BOOL) loadInsightsFrom: (int)from number:(int)number async:(BOOL)async
 {
 	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
 	NSString *access_token = [userDefaults objectForKey:@"access_token"];
 	
-	//NSString *fixeTxt = @"http://localhost:9000";
 	NSString *apiTxt = [NSString stringWithFormat:@"/api/insights/list?access_token=%@&from=%d&number=%d&vote=non-voted", access_token, from, number];
 	NSURL *url = [NSURL URLWithString: [NSString stringWithFormat:@"%@%@", [InsightListModel getHost], apiTxt]];
 	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
-	//[request setDelegate:self];
-	//[request startAsynchronous];
-	[request startSynchronous];
-	int statusCode = [request responseStatusCode];
-	if (statusCode == 200)
-	{
-		[self requestFinished:request];
+	
+	if (async == YES) {
+		[request setDelegate:self];
+		[request startAsynchronous];
 		return YES;
-	} else if(statusCode == 403) {
-		NSLog(@"error : %@",[[request error] description]);		
-		return NO;
 	} else {
-		NSLog(@"error : %@",[[request error] description]);	
-		return NO;
+		[request startSynchronous];
+		int statusCode = [request responseStatusCode];
+		if (statusCode == 200) {
+			NSString *responseString = [request responseString];
+			
+			NSDictionary *parser = [responseString JSONValue];
+			NSDictionary *meta = [parser objectForKey:@"meta"];
+			BOOL isAuthenticated = [[meta objectForKey:@"authenticated"] boolValue];
+			if (isAuthenticated == NO) {
+				return NO;
+			}
+			[self requestFinished:request];
+			return YES;
+		} else if(statusCode == 403) {
+			NSLog(@"error : %@",[[request error] description]);		
+			return NO;
+		} else {
+			NSLog(@"error : %@",[[request error] description]);	
+			return NO;
+		}
 	}
+
+
 
 
 	//[request release]; // ?
@@ -105,7 +120,7 @@ static InsightListModel *instance = nil;
 
 - (void)requestFailed:(ASIHTTPRequest *)request
 {
-	NSError *error = [request error];
+	NSLog(@"error : %@",[[request error] description]);		
 }
 
 

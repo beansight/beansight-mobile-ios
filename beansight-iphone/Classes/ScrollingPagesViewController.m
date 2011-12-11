@@ -82,15 +82,19 @@
 }
 
 - (void) initFirstDisplay {
-	BOOL authenticated = [((PageViewControllerLoaderList *) scrollView.delegate) loadData]; 
+	BOOL authenticated = [((PageViewControllerLoaderList *) scrollView.delegate) loadData:NO]; 
 	if (!authenticated) {
 		[self showAuthentication];
 	} else {
 	
 		int size = [[[InsightListModel getInstance] insights] count];
 	
+		id scrollViewDelegateTmp = scrollView.delegate;
+		scrollView.delegate = nil;
 		scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * size, scrollView.frame.size.height);
-	
+		scrollView.contentOffset = CGPointMake(0, 0);
+		scrollView.delegate = scrollViewDelegateTmp;
+		
 		[((PageViewControllerLoaderList *) scrollView.delegate) initWithPage:0]; 
 	}
 }

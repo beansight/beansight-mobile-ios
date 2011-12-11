@@ -10,14 +10,16 @@
 #import "InsightListModel.h"
 #import "PageViewControllerLoader.h"
 
+static int PREDICTION_COUNT_TO_LOAD = 20;
+
 @implementation PageViewControllerLoaderList
 
 @synthesize scrollView, controllerLoaders;
 
 
-- (BOOL) loadData
+- (BOOL) loadData:(BOOL)async
 {
-	return [[InsightListModel getInstance] loadMoreInsight:5];	
+	return [[InsightListModel getInstance] loadMoreInsight:PREDICTION_COUNT_TO_LOAD async:async];	
 }
 
 
@@ -71,12 +73,12 @@
 	currentPageIndex++;
 	
 	int loadedInsightsCount = [[InsightListModel getInstance].insights count];
-	if (loadedInsightsCount <= currentPageIndex + 3)
+	if (loadedInsightsCount <= currentPageIndex + PREDICTION_COUNT_TO_LOAD/2)
 	{
-		[[InsightListModel getInstance] loadMoreInsight:5];
-		int size = [[[InsightListModel getInstance] insights] count];
-		
+		int size = [[[InsightListModel getInstance] insights] count] + PREDICTION_COUNT_TO_LOAD;
 		scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * size, scrollView.frame.size.height);
+		
+		[[InsightListModel getInstance] loadMoreInsight:5 async:YES];
 	}
 }
 

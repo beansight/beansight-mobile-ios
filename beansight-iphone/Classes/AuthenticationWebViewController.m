@@ -67,10 +67,14 @@
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
 	NSString *urlString = [[[myWebView request] URL] absoluteString];
 	NSLog(@"webViewDidFinishLoad : %@", urlString);
-	NSString *extractedAccessToken = [urlString substringFromIndex:NSMaxRange([urlString rangeOfString:@"access_token"]) + 1 ];
-	NSLog(@"%@", extractedAccessToken);
-	
-	[userAuthenticationDelegate userDidAuthenticate: extractedAccessToken];
+	NSRange index = [urlString rangeOfString:@"access_token"];
+	if (index.location != NSNotFound) {
+		NSString *extractedAccessToken = [urlString substringFromIndex:NSMaxRange(index) + 1 ];
+		NSLog(@"%@", extractedAccessToken);
+		
+		[userAuthenticationDelegate userDidAuthenticate: extractedAccessToken];		
+	}
+
 }
 
 

@@ -21,7 +21,7 @@
 
 @property (nonatomic, retain) IBOutlet NSMutableArray *controllerLoaders;
 
-- (BOOL) loadData;
+- (BOOL) loadData:(BOOL)async;
 - (void) initWithPage: (int)initPage;
 - (void) moveToNextPage;
 - (void) moveToPreviousPage;

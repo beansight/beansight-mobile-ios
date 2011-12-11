@@ -15,9 +15,6 @@
 		2899E5220DE3E06400AC0155 /* ScrollingPagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ScrollingPagesViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ScrollingPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ScrollingPagesViewController.m */; };
-		293AA06C1461FA0C002C13C7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 293AA06B1461FA0C002C13C7 /* libz.dylib */; };
-		294055D51493DADC005E0105 /* agree-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 294055D21493DADC005E0105 /* agree-green.png */; };
-		294055D61493DADC005E0105 /* agree-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 294055D31493DADC005E0105 /* agree-white.png */; };
 		2960CEF813D61083001459DC /* PageViewControllerLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960CEF713D61083001459DC /* PageViewControllerLoader.m */; };
 		2960CEFC13D6109A001459DC /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960CEFA13D6109A001459DC /* PageViewController.m */; };
 		2960CEFD13D6109A001459DC /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960CEFB13D6109A001459DC /* PageViewController.xib */; };
@@ -48,17 +45,19 @@
 		297CDD9C13DC7BE800F1CADE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297CDD9B13DC7BE800F1CADE /* CFNetwork.framework */; };
 		297CDD9E13DC7BF400F1CADE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297CDD9D13DC7BF400F1CADE /* SystemConfiguration.framework */; };
 		297CDDA013DC7BFA00F1CADE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297CDD9F13DC7BFA00F1CADE /* MobileCoreServices.framework */; };
+		297CDDA213DC7C1600F1CADE /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 297CDDA113DC7C1600F1CADE /* libz.1.2.3.dylib */; };
 		297CDE2313DF21B100F1CADE /* UILabel+VerticalAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CDE2213DF21B100F1CADE /* UILabel+VerticalAlign.m */; };
 		297CE04213E071C800F1CADE /* AuthenticationWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CE04013E071C800F1CADE /* AuthenticationWebViewController.m */; };
 		297CE04313E071C800F1CADE /* AuthenticationWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 297CE04113E071C800F1CADE /* AuthenticationWebViewController.xib */; };
 		297CE2BC13E1A31600F1CADE /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CE2BA13E1A31600F1CADE /* SwitchViewController.m */; };
 		297CE50413E2062B00F1CADE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CE50313E2062B00F1CADE /* Default@2x.png */; };
+		297CE51413E208D400F1CADE /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CE51213E208D400F1CADE /* button.png */; };
+		297CE54713E2F5E200F1CADE /* button-agree-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CE54513E2F5E200F1CADE /* button-agree-highlight.png */; };
+		297CE55613E2F98000F1CADE /* button-disagree-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CE55513E2F98000F1CADE /* button-disagree-highlight.png */; };
+		297CE5B013E3058800F1CADE /* agree-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CE5AF13E3058800F1CADE /* agree-inactive.png */; };
+		297CE5B513E3416500F1CADE /* disagree-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CE5B413E3416500F1CADE /* disagree-inactive.png */; };
 		297CE60113E349D400F1CADE /* AgreeVote.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CE60013E349D400F1CADE /* AgreeVote.m */; };
 		297CE65613E34E8B00F1CADE /* DisagreeVote.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CE65513E34E8B00F1CADE /* DisagreeVote.m */; };
-		299DCFB31494BFD900CB7352 /* disagree-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 299DCFB11494BFD900CB7352 /* disagree-red.png */; };
-		299DCFB41494BFD900CB7352 /* disagree-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 299DCFB21494BFD900CB7352 /* disagree-white.png */; };
-		299DCFB71494C18800CB7352 /* button-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 299DCFB51494C18800CB7352 /* button-green.png */; };
-		299DCFB81494C18800CB7352 /* button-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 299DCFB61494C18800CB7352 /* button-red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,14 +71,11 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28D7ACF60DDB3853001CB0EB /* ScrollingPagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingPagesViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* ScrollingPagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingPagesViewController.m; sourceTree = "<group>"; };
-		293AA06B1461FA0C002C13C7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		294055D21493DADC005E0105 /* agree-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "agree-green.png"; path = "images/agree-green.png"; sourceTree = "<group>"; };
-		294055D31493DADC005E0105 /* agree-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "agree-white.png"; path = "images/agree-white.png"; sourceTree = "<group>"; };
 		2960CEF613D61083001459DC /* PageViewControllerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewControllerLoader.h; sourceTree = "<group>"; };
 		2960CEF713D61083001459DC /* PageViewControllerLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerLoader.m; sourceTree = "<group>"; };
 		2960CEF913D6109A001459DC /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		2960CEFA13D6109A001459DC /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		2960CEFB13D6109A001459DC /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PageViewController.xib; path = Classes/PageViewController.xib; sourceTree = SOURCE_ROOT; };
+		2960CEFB13D6109A001459DC /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PageViewController.xib; path = Classes/PageViewController.xib; sourceTree = "<group>"; };
 		2960CF1C13D61564001459DC /* PageViewControllerLoaderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewControllerLoaderList.h; sourceTree = "<group>"; };
 		2960CF1D13D61564001459DC /* PageViewControllerLoaderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerLoaderList.m; sourceTree = "<group>"; };
 		2960CF4813D61DCA001459DC /* InsightModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsightModel.h; sourceTree = "<group>"; };
@@ -136,6 +132,7 @@
 		297CDD9B13DC7BE800F1CADE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		297CDD9D13DC7BF400F1CADE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		297CDD9F13DC7BFA00F1CADE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		297CDDA113DC7C1600F1CADE /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		297CDE2113DF21B100F1CADE /* UILabel+VerticalAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VerticalAlign.h"; sourceTree = "<group>"; };
 		297CDE2213DF21B100F1CADE /* UILabel+VerticalAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalAlign.m"; sourceTree = "<group>"; };
 		297CE03F13E071C800F1CADE /* AuthenticationWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationWebViewController.h; sourceTree = "<group>"; };
@@ -145,14 +142,15 @@
 		297CE2B913E1A31600F1CADE /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
 		297CE2BA13E1A31600F1CADE /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
 		297CE50313E2062B00F1CADE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		297CE51213E208D400F1CADE /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		297CE54513E2F5E200F1CADE /* button-agree-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-agree-highlight.png"; sourceTree = "<group>"; };
+		297CE55513E2F98000F1CADE /* button-disagree-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-disagree-highlight.png"; sourceTree = "<group>"; };
+		297CE5AF13E3058800F1CADE /* agree-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree-inactive.png"; sourceTree = "<group>"; };
+		297CE5B413E3416500F1CADE /* disagree-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disagree-inactive.png"; sourceTree = "<group>"; };
 		297CE5FF13E349D400F1CADE /* AgreeVote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgreeVote.h; sourceTree = "<group>"; };
 		297CE60013E349D400F1CADE /* AgreeVote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgreeVote.m; sourceTree = "<group>"; };
 		297CE65413E34E8B00F1CADE /* DisagreeVote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisagreeVote.h; sourceTree = "<group>"; };
 		297CE65513E34E8B00F1CADE /* DisagreeVote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisagreeVote.m; sourceTree = "<group>"; };
-		299DCFB11494BFD900CB7352 /* disagree-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "disagree-red.png"; path = "images/disagree-red.png"; sourceTree = "<group>"; };
-		299DCFB21494BFD900CB7352 /* disagree-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "disagree-white.png"; path = "images/disagree-white.png"; sourceTree = "<group>"; };
-		299DCFB51494C18800CB7352 /* button-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-green.png"; path = "images/button-green.png"; sourceTree = "<group>"; };
-		299DCFB61494C18800CB7352 /* button-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-red.png"; path = "images/button-red.png"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Beansight_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beansight_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Beansight-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Beansight-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -163,13 +161,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293AA06C1461FA0C002C13C7 /* libz.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				297CDD9C13DC7BE800F1CADE /* CFNetwork.framework in Frameworks */,
 				297CDD9E13DC7BF400F1CADE /* SystemConfiguration.framework in Frameworks */,
 				297CDDA013DC7BFA00F1CADE /* MobileCoreServices.framework in Frameworks */,
+				297CDDA213DC7C1600F1CADE /* libz.1.2.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,19 +195,6 @@
 				1D6058910D05DD3D006BFB54 /* Beansight.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		294055D11493DA73005E0105 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				299DCFB51494C18800CB7352 /* button-green.png */,
-				299DCFB61494C18800CB7352 /* button-red.png */,
-				299DCFB11494BFD900CB7352 /* disagree-red.png */,
-				299DCFB21494BFD900CB7352 /* disagree-white.png */,
-				294055D21493DADC005E0105 /* agree-green.png */,
-				294055D31493DADC005E0105 /* agree-white.png */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 		296C321214053987005F5FE7 /* model */ = {
@@ -343,7 +328,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				293AA06B1461FA0C002C13C7 /* libz.dylib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -352,6 +336,7 @@
 				297CDD9B13DC7BE800F1CADE /* CFNetwork.framework */,
 				297CDD9D13DC7BF400F1CADE /* SystemConfiguration.framework */,
 				297CDD9F13DC7BFA00F1CADE /* MobileCoreServices.framework */,
+				297CDDA113DC7C1600F1CADE /* libz.1.2.3.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -368,10 +353,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				294055D11493DA73005E0105 /* Images */,
-				2960CEFB13D6109A001459DC /* PageViewController.xib */,
+				297CE5B413E3416500F1CADE /* disagree-inactive.png */,
+				297CE5AF13E3058800F1CADE /* agree-inactive.png */,
+				297CE55513E2F98000F1CADE /* button-disagree-highlight.png */,
+				297CE54513E2F5E200F1CADE /* button-agree-highlight.png */,
+				297CE51213E208D400F1CADE /* button.png */,
 				297CE50313E2062B00F1CADE /* Default@2x.png */,
 				297CE04113E071C800F1CADE /* AuthenticationWebViewController.xib */,
+				2960CEFB13D6109A001459DC /* PageViewController.xib */,
 				2899E5210DE3E06400AC0155 /* ScrollingPagesViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Beansight-Info.plist */,
@@ -443,12 +432,11 @@
 				2960CEFD13D6109A001459DC /* PageViewController.xib in Resources */,
 				297CE04313E071C800F1CADE /* AuthenticationWebViewController.xib in Resources */,
 				297CE50413E2062B00F1CADE /* Default@2x.png in Resources */,
-				294055D51493DADC005E0105 /* agree-green.png in Resources */,
-				294055D61493DADC005E0105 /* agree-white.png in Resources */,
-				299DCFB31494BFD900CB7352 /* disagree-red.png in Resources */,
-				299DCFB41494BFD900CB7352 /* disagree-white.png in Resources */,
-				299DCFB71494C18800CB7352 /* button-green.png in Resources */,
-				299DCFB81494C18800CB7352 /* button-red.png in Resources */,
+				297CE51413E208D400F1CADE /* button.png in Resources */,
+				297CE54713E2F5E200F1CADE /* button-agree-highlight.png in Resources */,
+				297CE55613E2F98000F1CADE /* button-disagree-highlight.png in Resources */,
+				297CE5B013E3058800F1CADE /* agree-inactive.png in Resources */,
+				297CE5B513E3416500F1CADE /* disagree-inactive.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,8 +15,8 @@
 
 @property (nonatomic, retain) NSMutableArray *insights;
 
-- (BOOL) loadMoreInsight:(int)count;
-- (BOOL) loadInsightsFrom: (int)from number:(int)number;
+- (BOOL) loadMoreInsight:(int)count async:(BOOL)async;
+- (BOOL) loadInsightsFrom: (int)from number:(int)number async:(BOOL)async;
 - (InsightModel *) getInsight: (int)index;
 
 + (InsightListModel *) getInstance;

@@ -28,7 +28,7 @@
         frame.origin.x = frame.size.width * pageIndex;
         frame.origin.y = 0;
         self.view.frame = frame;
-        [theScrollView addSubview:self.view];
+        [theScrollView addSubview:self.view];        
 	}
 	return self;
 }
@@ -40,7 +40,8 @@
 	[self setInsightState: 1];
 	InsightModel *insight = [[InsightListModel getInstance] getInsight:pageIndex];
 	[insight setVoteStatus:1];
-	[DisagreeVote vote:insight.insightId];
+
+//	[[[AgreeVote alloc] init] vote:insight.insightId];
 	[AgreeVote vote:insight.insightId];
 }
 
@@ -50,6 +51,7 @@
 	[self setInsightState: -1];
 	InsightModel *insight = [[InsightListModel getInstance] getInsight:pageIndex];
 	[insight setVoteStatus:-1];
+	
 	[DisagreeVote vote:insight.insightId];
 }
 
@@ -76,27 +78,36 @@
 }
 
 - (void) setAgreeBtnToSelected {
-	UIImage *buttonImage = [UIImage imageNamed:@"button-agree-highlight.png"];
-	[agreeBtn setBackgroundImage:buttonImage forState:UIControlStateNormal];
-	[buttonImage release];
+	UIImage *backgroundImage = [UIImage imageNamed:@"button-green.png"];
+    UIImage *image = [UIImage imageNamed:@"agree-white.png"];
+	[agreeBtn setBackgroundImage:backgroundImage forState:UIControlStateNormal];
+    [agreeBtn setImage:image forState:UIControlStateNormal];
+	[backgroundImage release];
+	[image release];
 }
 
 - (void) setAgreeBtnToNormal {
-	UIImage *buttonImage = [UIImage imageNamed:@"button.png"];
-	[agreeBtn setBackgroundImage:buttonImage forState:UIControlStateNormal];
-	[buttonImage release];
+    UIImage *image = [UIImage imageNamed:@"agree-green.png"];
+	[agreeBtn setBackgroundImage:nil forState:UIControlStateNormal];
+    [agreeBtn setImage:image forState:UIControlStateNormal];
+    [image release];
 }
 
 - (void) setDisagreeBtnToSelected {
-	UIImage *buttonImage = [UIImage imageNamed:@"button-disagree-highlight.png"];
-	[disagreeBtn setBackgroundImage:buttonImage forState:UIControlStateNormal];
-	[buttonImage release];
+	UIImage *backgroundImage = [UIImage imageNamed:@"button-red.png"];
+    UIImage *image = [UIImage imageNamed:@"disagree-white.png"];
+	[disagreeBtn setBackgroundImage:backgroundImage forState:UIControlStateNormal];
+    [disagreeBtn setImage:image forState:UIControlStateNormal];
+	[backgroundImage release];
+    [image release];
+	//[disagreeBtn setBackgroundColor:<#(UIColor *)#> forState:UIControlStateNormal];
 }
 
 - (void) setDisagreeBtnToNormal {
-	UIImage *buttonImage = [UIImage imageNamed:@"button.png"];
-	[disagreeBtn setBackgroundImage:buttonImage forState:UIControlStateNormal];
-	[buttonImage release];
+    UIImage *image = [UIImage imageNamed:@"disagree-red.png"];
+	[disagreeBtn setBackgroundImage:nil forState:UIControlStateNormal];
+    [disagreeBtn setImage:image forState:UIControlStateNormal];
+    [image release];
 }
 
 - (void)viewDidLoad {
