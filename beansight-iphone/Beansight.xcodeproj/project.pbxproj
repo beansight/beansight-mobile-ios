@@ -24,6 +24,9 @@
 		2960CF1E13D61564001459DC /* PageViewControllerLoaderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960CF1D13D61564001459DC /* PageViewControllerLoaderList.m */; };
 		2960CF4A13D61DCA001459DC /* InsightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960CF4913D61DCA001459DC /* InsightModel.m */; };
 		2960CF4D13D61DF1001459DC /* InsightListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960CF4C13D61DF1001459DC /* InsightListModel.m */; };
+		297617C214952B9000CEEEAB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 297617C114952B9000CEEEAB /* Icon.png */; };
+		297617C414952B9500CEEEAB /* Icon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 297617C314952B9500CEEEAB /* Icon@x2.png */; };
+		297617C614952B9C00CEEEAB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 297617C514952B9C00CEEEAB /* Default.png */; };
 		297CDD1913DC798300F1CADE /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CDD0613DC798300F1CADE /* ASIAuthenticationDialog.m */; };
 		297CDD1A13DC798300F1CADE /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CDD0913DC798300F1CADE /* ASIDataCompressor.m */; };
 		297CDD1B13DC798300F1CADE /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CDD0B13DC798300F1CADE /* ASIDataDecompressor.m */; };
@@ -86,6 +89,9 @@
 		2960CF4913D61DCA001459DC /* InsightModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsightModel.m; sourceTree = "<group>"; };
 		2960CF4B13D61DF1001459DC /* InsightListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsightListModel.h; sourceTree = "<group>"; };
 		2960CF4C13D61DF1001459DC /* InsightListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsightListModel.m; sourceTree = "<group>"; };
+		297617C114952B9000CEEEAB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		297617C314952B9500CEEEAB /* Icon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@x2.png"; sourceTree = "<group>"; };
+		297617C514952B9C00CEEEAB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		297CDD0513DC798300F1CADE /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ASI/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		297CDD0613DC798300F1CADE /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = ASI/ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		297CDD0713DC798300F1CADE /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ASI/ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -343,6 +349,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				297617C514952B9C00CEEEAB /* Default.png */,
+				297617C314952B9500CEEEAB /* Icon@x2.png */,
+				297617C114952B9000CEEEAB /* Icon.png */,
 				293AA06B1461FA0C002C13C7 /* libz.dylib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -414,6 +423,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Beansight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -449,6 +461,9 @@
 				299DCFB41494BFD900CB7352 /* disagree-white.png in Resources */,
 				299DCFB71494C18800CB7352 /* button-green.png in Resources */,
 				299DCFB81494C18800CB7352 /* button-red.png in Resources */,
+				297617C214952B9000CEEEAB /* Icon.png in Resources */,
+				297617C414952B9500CEEEAB /* Icon@x2.png in Resources */,
+				297617C614952B9C00CEEEAB /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,13 +518,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Beansight_Prefix.pch;
 				INFOPLIST_FILE = "Beansight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = Beansight;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -517,11 +536,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Beansight_Prefix.pch;
 				INFOPLIST_FILE = "Beansight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = Beansight;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -534,7 +557,6 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				PRODUCT_NAME = Beansight;
 				SDKROOT = iphoneos;
 			};
@@ -549,7 +571,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				PRODUCT_NAME = Beansight;
 				SDKROOT = iphoneos;
 			};

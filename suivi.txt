@@ -1,0 +1,8 @@
+Dans La fenetre Organizer accessible dans xcode4 mon archive est disponible 
+Mais pour pouvoir continuer il faut que je cree d'abord une application dans https://itunesconnect.apple.com
+
+Pour info il faut utiliser mon compte apple jeanbaptiste.claramonte.apple@gmail.com/Gmailapple10!
+
+
+Dans l'application il y a un petit bug visiblement les predictions sont chargees mais impossible de continuer à swiper ... ?
+Je me demande s'il n y a pas un pb avec le chargement asynchrone qui pourrait être appelé plusieurs fois si on swaip trop vite et que le chargement n'a pas eu lieu ... ?

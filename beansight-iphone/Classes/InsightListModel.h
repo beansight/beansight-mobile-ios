@@ -11,6 +11,7 @@
 
 @interface InsightListModel : NSObject {
 	NSMutableArray *insights;
+    BOOL isLoadOnGoing;
 }
 
 @property (nonatomic, retain) NSMutableArray *insights;

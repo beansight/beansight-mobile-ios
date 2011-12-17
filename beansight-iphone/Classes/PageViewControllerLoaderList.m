@@ -75,10 +75,10 @@ static int PREDICTION_COUNT_TO_LOAD = 20;
 	int loadedInsightsCount = [[InsightListModel getInstance].insights count];
 	if (loadedInsightsCount <= currentPageIndex + PREDICTION_COUNT_TO_LOAD/2)
 	{
-		int size = [[[InsightListModel getInstance] insights] count] + PREDICTION_COUNT_TO_LOAD;
+		int size = [[[InsightListModel getInstance] insights] count] + PREDICTION_COUNT_TO_LOAD/2;
 		scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * size, scrollView.frame.size.height);
 		
-		[[InsightListModel getInstance] loadMoreInsight:5 async:YES];
+		[[InsightListModel getInstance] loadMoreInsight:(PREDICTION_COUNT_TO_LOAD/2) async:YES];
 	}
 }
 
