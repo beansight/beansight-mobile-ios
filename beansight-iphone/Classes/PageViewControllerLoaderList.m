@@ -18,8 +18,10 @@ static int PREDICTION_COUNT_TO_LOAD = 20;
 
 
 - (BOOL) loadData:(BOOL)async
+ callbackDelegate:(id)callbackDelegate 
+ callbackFunction:(SEL)callbackFunction
 {
-	return [[InsightListModel getInstance] loadMoreInsight:PREDICTION_COUNT_TO_LOAD async:async];	
+	return [[InsightListModel getInstance] loadMoreInsight:PREDICTION_COUNT_TO_LOAD async:async callbackDelegate:callbackDelegate callbackFunction:callbackFunction];	
 }
 
 
@@ -66,19 +68,24 @@ static int PREDICTION_COUNT_TO_LOAD = 20;
 }
 
 
+- (void) updateScrollViewSize {
+    int size = [[[InsightListModel getInstance] insights] count];
+    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * size, scrollView.frame.size.height);
+    
+}
+
 - (void) moveToNextPage
 {
 	[self unloadPage:currentPageIndex-1];
 	[self loadPage:currentPageIndex+2];
 	currentPageIndex++;
-	
+    
+	// Si on a dèjà chargé la moitié les prédictions on lance le chargement de PREDICTION_COUNT_TO_LOAD/2 autres
+    // Ne pas lancer le chargement s'il a déjà été lancé
 	int loadedInsightsCount = [[InsightListModel getInstance].insights count];
 	if (loadedInsightsCount <= currentPageIndex + PREDICTION_COUNT_TO_LOAD/2)
-	{
-		int size = [[[InsightListModel getInstance] insights] count] + PREDICTION_COUNT_TO_LOAD/2;
-		scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * size, scrollView.frame.size.height);
-		
-		[[InsightListModel getInstance] loadMoreInsight:(PREDICTION_COUNT_TO_LOAD/2) async:YES];
+	{		
+		[[InsightListModel getInstance] loadMoreInsight:(PREDICTION_COUNT_TO_LOAD/2) async:YES callbackDelegate:self callbackFunction:@selector(updateScrollViewSize)];
 	}
 }
 

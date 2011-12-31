@@ -82,7 +82,7 @@
 }
 
 - (void) initFirstDisplay {
-	BOOL authenticated = [((PageViewControllerLoaderList *) scrollView.delegate) loadData:NO]; 
+	BOOL authenticated = [((PageViewControllerLoaderList *) scrollView.delegate) loadData:NO callbackDelegate:nil callbackFunction:nil]; 
 	if (!authenticated) {
 		[self showAuthentication];
 	} else {

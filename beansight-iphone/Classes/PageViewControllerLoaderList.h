@@ -21,12 +21,12 @@
 
 @property (nonatomic, retain) IBOutlet NSMutableArray *controllerLoaders;
 
-- (BOOL) loadData:(BOOL)async;
+- (BOOL) loadData:(BOOL)async callbackDelegate:(id)callbackDelegate callbackFunction:(SEL)callbackFunction;
 - (void) initWithPage: (int)initPage;
 - (void) moveToNextPage;
 - (void) moveToPreviousPage;
 
-- (void) loadPage: (int) pageToLoad;
+- (void) loadPage: (int) pageToLoad ;
 - (void) unloadPage: (int)page;
 
 @end

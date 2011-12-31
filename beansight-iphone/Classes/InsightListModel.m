@@ -13,10 +13,11 @@
 #import "SBJson.h"
 
 static InsightListModel *instance = nil;
+static BOOL loading = NO;
 
 @implementation InsightListModel
 
-@synthesize insights;
+@synthesize insights, callbackDelegate, callbackFunction;
 
 
 + (InsightListModel *) getInstance
@@ -35,46 +36,55 @@ static InsightListModel *instance = nil;
 	return @"http://www.beansight.com";
 }
 
-- (BOOL) loadMoreInsight:(int)count async:(BOOL)async
+- (BOOL) loadMoreInsight:(int)count 
+                   async:(BOOL)async 
+        callbackDelegate:(id)callbackDelegate 
+        callbackFunction:(SEL)callbackFunction
 {
+    self.callbackDelegate = callbackDelegate;
+    self.callbackFunction = callbackFunction;
 	return [self loadInsightsFrom:[insights count] number:count async:async];
 }
 
 - (BOOL) loadInsightsFrom: (int)from number:(int)number async:(BOOL)async
 {
-	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-	NSString *access_token = [userDefaults objectForKey:@"access_token"];
-	
-	NSString *apiTxt = [NSString stringWithFormat:@"/api/insights/list?access_token=%@&from=%d&number=%d&vote=non-voted", access_token, from, number];
-	NSURL *url = [NSURL URLWithString: [NSString stringWithFormat:@"%@%@", [InsightListModel getHost], apiTxt]];
-	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
-	
-	if (async == YES) {
-		[request setDelegate:self];
-		[request startAsynchronous];
-		return YES;
-	} else {
-		[request startSynchronous];
-		int statusCode = [request responseStatusCode];
-		if (statusCode == 200) {
-			NSString *responseString = [request responseString];
-			
-			NSDictionary *parser = [responseString JSONValue];
-			NSDictionary *meta = [parser objectForKey:@"meta"];
-			BOOL isAuthenticated = [[meta objectForKey:@"authenticated"] boolValue];
-			if (isAuthenticated == NO) {
-				return NO;
-			}
-			[self requestFinished:request];
-			return YES;
-		} else if(statusCode == 403) {
-			NSLog(@"error : %@",[[request error] description]);		
-			return NO;
-		} else {
-			NSLog(@"error : %@",[[request error] description]);	
-			return NO;
-		}
-	}
+    if (!loading) {
+        loading = YES;
+        NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+        NSString *access_token = [userDefaults objectForKey:@"access_token"];
+        
+        NSString *apiTxt = [NSString stringWithFormat:@"/api/insights/list?access_token=%@&from=%d&number=%d&vote=non-voted", access_token, from, number];
+        NSURL *url = [NSURL URLWithString: [NSString stringWithFormat:@"%@%@", [InsightListModel getHost], apiTxt]];
+        ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+        
+        if (async == YES) {
+            [request setDelegate:self];
+            [request startAsynchronous];
+            return YES;
+        } else {
+            [request startSynchronous];
+            int statusCode = [request responseStatusCode];
+            if (statusCode == 200) {
+                NSString *responseString = [request responseString];
+                
+                NSDictionary *parser = [responseString JSONValue];
+                NSDictionary *meta = [parser objectForKey:@"meta"];
+                BOOL isAuthenticated = [[meta objectForKey:@"authenticated"] boolValue];
+                if (isAuthenticated == NO) {
+                    return NO;
+                }
+                [self requestFinished:request];
+                return YES;
+            } else if(statusCode == 403) {
+                NSLog(@"error : %@",[[request error] description]);		
+                return NO;
+            } else {
+                NSLog(@"error : %@",[[request error] description]);	
+                return NO;
+            }
+        } 
+    }
+
 
 
 
@@ -115,6 +125,9 @@ static InsightListModel *instance = nil;
 										  lastCurrentUserVote: [anInsightJson objectForKey:@"lastCurrentUserVote"] ];
 		[self.insights addObject:insight];
 	}
+    
+    loading = NO;
+    [callbackDelegate performSelector:callbackFunction];
 	
 }
 

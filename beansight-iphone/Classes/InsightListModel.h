@@ -11,12 +11,19 @@
 
 @interface InsightListModel : NSObject {
 	NSMutableArray *insights;
-    BOOL isLoadOnGoing;
+    id callbackDelegate;
+	SEL callbackFunction;
 }
 
+@property (nonatomic, retain) id callbackDelegate;
+@property (nonatomic) SEL callbackFunction;
 @property (nonatomic, retain) NSMutableArray *insights;
 
-- (BOOL) loadMoreInsight:(int)count async:(BOOL)async;
+- (BOOL) loadMoreInsight:(int)count 
+                   async:(BOOL)async 
+        callbackDelegate:(id)callbackDelegate 
+        callbackFunction:(SEL)callbackFunction;
+
 - (BOOL) loadInsightsFrom: (int)from number:(int)number async:(BOOL)async;
 - (InsightModel *) getInsight: (int)index;
 
