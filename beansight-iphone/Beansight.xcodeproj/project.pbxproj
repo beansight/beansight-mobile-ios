@@ -349,9 +349,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				297617C514952B9C00CEEEAB /* Default.png */,
-				297617C314952B9500CEEEAB /* Icon@x2.png */,
-				297617C114952B9000CEEEAB /* Icon.png */,
 				293AA06B1461FA0C002C13C7 /* libz.dylib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -377,6 +374,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				297617C514952B9C00CEEEAB /* Default.png */,
+				297617C314952B9500CEEEAB /* Icon@x2.png */,
+				297617C114952B9000CEEEAB /* Icon.png */,
 				294055D11493DA73005E0105 /* Images */,
 				2960CEFB13D6109A001459DC /* PageViewController.xib */,
 				297CE50313E2062B00F1CADE /* Default@2x.png */,
@@ -544,7 +544,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = Beansight;
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
